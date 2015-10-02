@@ -55,10 +55,10 @@ gulp.task(
 gulp.task('cobertura', [ 'mocha:src' ], function(cb) {
     cobertura('coverage/cobertura-coverage.xml', 'svg', cb);
 });
-gulp.task('esdoc', [ 'cobertura' ], function() {
+gulp.task('esdoc', function() {
     return gulp.src(SRC_DIR).pipe(esdoc({ destination: DOC_SRC }));
 });
-gulp.task('babel', [ 'esdoc' ], function() {
+gulp.task('babel', function() {
     return gulp.src('src/**').pipe(babel({
         comments: false
     })).pipe(gulp.dest('dist'));
