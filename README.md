@@ -1,6 +1,8 @@
 ![emblem](https://rawgit.com/angie-framework/angie-rest-framework/master/svg/angie.svg "emblem")
 
 ## Angie REST Framework
+
+[![Join the chat at https://gitter.im/benderTheCrime/angie-rest-framework](https://badges.gitter.im/benderTheCrime/angie-rest-framework.svg)](https://gitter.im/benderTheCrime/angie-rest-framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 RESTful API wrapper around Angie Framework Application Endpoints
 
 [![npm version](https://badge.fury.io/js/angie-rest-framework.svg)](http://badge.fury.io/js/angie-rest-framework "npm version")
